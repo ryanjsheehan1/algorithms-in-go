@@ -13,7 +13,6 @@ func bubbleSort(list []int) []int {
 				list[i], list[i+1] = list[i+1], list[i]
 				sorted = false
 			}
-
 		}
 		n -= 1
 	}
@@ -22,9 +21,7 @@ func bubbleSort(list []int) []int {
 
 func main() {
 	list := []int{65, 55, 45, 35, 25, 15, 10}
-
 	result := bubbleSort(list)
 
 	fmt.Printf("Sorted array: %d\n", result)
-
 }
